@@ -1,0 +1,79 @@
+
+#main {
+  background-color: #443232;
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  min-width: 320px;
+}
+
+#title {
+  color: white;
+  background: black;
+  padding: 10px 0px 10px 0px;
+}
+
+#submit {
+  margin: 10px;
+  background-color: #443232;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  border-radius: 4px;
+  color: white;
+  border: 0px solid;
+}
+
+.radio, .checkbox {
+  position: relative;
+  display: block;
+  padding-bottom: 10px;
+  left: -43px;
+  margin-left: 10px;
+}
+
+
+.rotulo {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.abas {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.entrada {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  height: 20px;
+  width: 280px;
+}
+
+#exterior {
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+  width: 75%;
+  padding-top: 20px;
+  max-width: 900px;  
+  border-radius: 4px;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+

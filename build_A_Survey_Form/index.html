@@ -1,0 +1,91 @@
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<main id="main">
+<h1 id="title">Formulário de Avaliação</h1>
+<div id="exterior">
+  <p id="description">
+    Deixe-nos saber como podemos melhorar a nossa instituição!
+  </p>
+  <form id="survey-form">
+    <div>
+      <div class="rotulo">
+        <label id="name-label">* Nome: </label>
+      </div>
+      <div class="abas">
+        <input autofocus type="text" name="name" id="name" class="entrada" placeholder="Digite o seu Nome..." required>
+      </div>
+    </div>
+    <div>
+      <div class="rotulo">
+        <label id="email-label">* Email: </label>
+      </div>
+      <div class="abas">
+        <input type="email" name="email" id="email" class="entrada" required placeholder="Digite o seu Email...">
+      </div>
+    </div>
+    <div>
+      <div class="rotulo">
+        <label id="number-label">* Idade: </label>
+      </div>
+      <div class="abas">
+        <input type="number" name="age" id="number" min="1" max="125" class="entrada" placeholder="Digite sua Idade...">
+      </div>
+    </div>
+    <div>
+      <div class="rotulo">
+        <label>Qual opção descreve melhor sua função atual?<label>
+      </div>
+      <div class="abas">
+        <select id="dropdown" class="dropdown">
+      <option disabled value>Selecione uma opção</option>
+      <option>Aluno(a)</option>
+      <option>Estudante</option>
+      <option>Trabalho Integral</option>
+      <option">Autônomo</option>
+      <option>Desempregado</option>
+      <option>Outro</option>
+    </select>
+      </div>
+    </div>
+    <div>
+      <div class="rotulo">
+        <label>* Qual a probabilidade de você recomendar a nossa faculdade?</label>
+      </div>
+      <div class="abas">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Alta<input name="butoes-radio" value="1"  type="radio"></label></li>
+          <li class="radio"><label>Baixa<input name="butoes-radio" value="2"  type="radio"></label></li>
+          <li class="radio"><label>Não tenho certeza<input name="butoes-radio" value="3"  type="radio"></label></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="rotulo">
+        <label>Marque o que deve ser melhorado em breve!<br>(Quantos quiser)</label>
+      </div>
+      <div class="abas">
+        <ul style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox">Estrutura das Salas de Aula</label></li>
+          <li class="checkbox"><input name="prefer" value="2" type="checkbox">Biblioteca</li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox">Estacionamento</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox">Banheiros</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox">Rede Wi-Fi</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox">Laboratórios de Informática</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox">Forma de Avaliação</label></li>
+          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox">Plataforma Online da Faculdade</label></li>
+          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox">Blog do Aluno</label></li>
+          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox">Atendimento</label></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="rotulo">
+        <label>Comentários, dúvidas, sugestões. Deixe aqui!</label>
+      </div>
+      <div class="abas">
+        <textarea class="entrada" style="height:50px;resize:vertical;" name="opiniao" placeholder="Digite aqui..."></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Enviar</button>
+  </form>
+</div>
+</main>
